@@ -4,6 +4,10 @@
 
 The Iris Dataset Explorer is a Streamlit web application that provides an interactive exploration of the famous Iris dataset. This app allows users to view the dataset, perform exploratory data analysis (EDA), train machine learning models, and evaluate model performance.
 
+## Demo App
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+
 ## Features
 
 - **Dataset Overview**: View the Iris dataset and summary statistics
@@ -26,6 +30,7 @@ The Iris Dataset Explorer is a Streamlit web application that provides an intera
   - `eda.py`: Exploratory Data Analysis page
   - `ml_model_training.py`: Machine Learning model training page
   - `model_overview.py`: Model performance overview page
+
 
 ## How to Run
 
