@@ -1,25 +1,47 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# Iris Dataset Explorer
 
-Description of the app ...
+## Overview
 
-## Demo App
+The Iris Dataset Explorer is a Streamlit web application that provides an interactive exploration of the famous Iris dataset. This app allows users to view the dataset, perform exploratory data analysis (EDA), train machine learning models, and evaluate model performance.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+## Features
 
-## GitHub Codespaces
+- **Dataset Overview**: View the Iris dataset and summary statistics
+- **Exploratory Data Analysis (EDA)**: Visualize feature relationships and distributions
+- **ML Model Training**: Train various machine learning models on the Iris dataset
+- **Model Overview**: Review model performance and download trained models
+- **Cross-Validation**: Perform cross-validation to assess model generalization
+- **About**: Information about the application and its purpose
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
+## File Structure
 
-## Section Heading
+- `app.py`: Main application file with Streamlit setup and navigation
+- `utils/`:
+  - `data_utils.py`: Functions for loading and preprocessing the Iris dataset
+  - `model_utils.py`: Utility functions for model training and evaluation
+- `pages/`:
+  - `about.py`: About page content
+  - `cross_validation.py`: Cross-validation functionality
+  - `dataset_overview.py`: Dataset overview page
+  - `eda.py`: Exploratory Data Analysis page
+  - `ml_model_training.py`: Machine Learning model training page
+  - `model_overview.py`: Model performance overview page
 
-This is filler text, please replace this with text for this section.
+## How to Run
 
-## Further Reading
+1. Install the required dependencies (Streamlit, Pandas, Scikit-learn, Seaborn, Matplotlib)
+2. Run the application using the command: `streamlit run app.py`
 
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+## Technologies Used
+
+- Streamlit
+- Pandas
+- Scikit-learn
+- Seaborn
+- Matplotlib
+
+## Author
+
+Created by Mohanarangan
+
+Enjoy exploring the Iris Dataset with this interactive tool!
