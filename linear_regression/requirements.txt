@@ -1,4 +1,1 @@
 streamlit>=1.26.0
-Scikit-learn>=1.2.2
-Pandas
-Matplotlib
